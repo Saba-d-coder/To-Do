@@ -1,0 +1,134 @@
+#container{
+    width: 350px;
+    margin: 10% auto;
+    /* border: 2px solid black; */
+    box-shadow: 5px 5px rgb(8, 4, 4);
+}
+h1{
+    padding:2% 5%;
+    background-color:rgb(20, 240, 203);
+    margin: 0;
+    color:white;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+
+input{
+    
+    width:350px; 
+    font-size: 15px;
+    padding-left: 5%;
+    height: 35px; 
+    box-sizing: border-box;
+    border:1px solid white;
+    
+}
+
+.fa-plus{
+    float:right;
+    margin: 0;
+    padding:5px 0;
+    font-size: 28px;
+}
+
+span{
+    background:red;
+    color: rgb(252, 248, 248);
+    text-align: center;
+    height: 20px;
+    width:0; 
+    display: inline-block; 
+    margin-right: 4px;
+    transform: 0.1s linear;
+    opacity:0;
+    padding: 7px;
+ 
+}
+
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+ li:hover span{
+    width:20px;
+    opacity:1.0;
+    
+} 
+
+
+input:focus{
+    background:white;
+    border: 2px solid rgb(14, 230, 194);
+    outline: none;
+
+}
+ul{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li{
+    background:rgb(238, 219, 219);
+    line-height: 35px;
+    height: 35px;
+    color: black;
+    
+}
+
+li:nth-child(2n){
+    background: white;
+}
+.complete{
+    color: grey;
+    text-decoration: line-through;
+}
+
+
+	
+
